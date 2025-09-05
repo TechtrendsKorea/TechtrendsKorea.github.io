@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrendsKorea</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Google Fonts - Inter */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800 antialiased">
+    <main class="container mx-auto px-4 py-12 md:py-20 max-w-4xl">
+        <!-- Header Section -->
+        <header class="text-center mb-12">
+            <h1 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-2">TrendsKorea</h1>
+            <p class="text-lg sm:text-xl text-gray-600">
+                일상에 가치를 더하는 앱을 만듭니다.
+            </p>
+        </header>
+
+        <!-- App List Section -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- DailyPic App Card -->
+            <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300">
+                <div class="flex items-center justify-center mb-6">
+                    <!-- Placeholder for App Icon -->
+                    <div class="w-24 h-24 bg-indigo-200 rounded-3xl flex items-center justify-center text-4xl font-bold text-indigo-700">
+                        P
+                    </div>
+                </div>
+                <h2 class="text-2xl sm:text-3xl font-semibold text-center text-gray-900 mb-4">DailyPic</h2>
+                <p class="text-gray-600 text-center mb-4">
+                    소중한 순간을 포착하고, 이야기를 공유하세요. DailyPic은 일상의 경험을 손쉽게 기록하고, 정리하고, 공유할 수 있도록 설계된 직관적이고 매력적인 이미지 앱입니다. 단순한 사진 앱을 넘어, DailyPic은 의미 있는 태그와 간략한 캡션을 추가하여 소중한 순간을 되돌아보고, 각 사진을 기억에 남는 이야기로 만들어 줍니다.
+                </p>
+                <div class="text-center">
+                    <p class="font-medium text-gray-700 mb-2">핵심 기능:</p>
+                    <ul class="list-none text-gray-500 mb-6 space-y-2">
+                        <li>사진에 간단한 한마디와 활동 태그를 하나의 이미지로 합쳐서 공유</li>
+                    </ul>
+                    <a href="https://play.google.com/store/apps/details?id=kr.co.techtrendskorea.dailypic" target="_blank" rel="noopener noreferrer" class="inline-block bg-indigo-600 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-indigo-700 transition-colors duration-300 transform hover:scale-105">
+                        Google Play에서 보기
+                    </a>
+                </div>
+            </section>
+
+            <!-- MyCarNote App Card -->
+            <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300">
+                <div class="flex items-center justify-center mb-6">
+                    <!-- Placeholder for App Icon -->
+                    <div class="w-24 h-24 bg-orange-200 rounded-3xl flex items-center justify-center text-4xl font-bold text-orange-700">
+                        C
+                    </div>
+                </div>
+                <h2 class="text-2xl sm:text-3xl font-semibold text-center text-gray-900 mb-4">MyCarNote (차계부)</h2>
+                <p class="text-gray-600 text-center mb-4">
+                    당신의 차량 관리를 위한 가장 스마트한 선택, 운전의 즐거움을 더해줄 새로운 차계부 앱, MyCarNote가 드디어 출시되었습니다! MyCarNote는 복잡한 차량 관리를 쉽고 간편하게 만들어주는 올인원 솔루션입니다.
+                </p>
+                <div class="text-center">
+                    <p class="font-medium text-gray-700 mb-2">주요 기능:</p>
+                    <ul class="list-none text-gray-500 text-left mb-6 space-y-2 px-4">
+                        <li>- 여러 대의 차량을 한 번에 등록하고 관리할 수 있습니다.</li>
+                        <li>- 간단한 터치로 정비 내역을 기록하고, 중요한 시기를 놓치지 않도록 도와줍니다.</li>
+                        <li>- 주유 정보 입력 시 연비가 자동으로 계산됩니다.</li>
+                        <li>- 소중한 데이터를 안전하게 보관하고 언제든지 쉽게 복구할 수 있습니다.</li>
+                        <li>- 월별, 연도별 지출 내역을 한눈에 파악할 수 있는 통계 보고서를 제공합니다.</li>
+                    </ul>
+                    <a href="https://play.google.com/store/apps/details?id=kr.co.techtrendskorea.mycarnote" target="_blank" rel="noopener noreferrer" class="inline-block bg-orange-600 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-orange-700 transition-colors duration-300 transform hover:scale-105">
+                        Google Play에서 보기
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
